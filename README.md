@@ -40,9 +40,9 @@ Follow these steps to run the project locally:
    ```
 2. **Create a `.env` file** in the project root with the following content:
   ```env
-  PRIVATE_KEY="YOUR_PRIVATE_KEY"
-  PINATA_SECRET_API_KEY="YOUR_PINATA_SECRET_API_KEY"
-  PINATA_API_KEY="YOUR_PINATA_API_KEY"
+  PRIVATE_KEY=YOUR_PRIVATE_KEY
+  PINATA_SECRET_API_KEY=YOUR_PINATA_SECRET_API_KEY
+  PINATA_API_KEY=YOUR_PINATA_API_KEY
   ALCHEMY_API_KEY="YOUR_ALCHEMY_API_KEY"
   ```
 
