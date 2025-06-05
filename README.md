@@ -38,13 +38,15 @@ Follow these steps to run the project locally:
    git clone https://github.com/Kalu-Bru/Tickets.git
    cd Tickets
    ```
-2. **Create a `.env` file** in the project root with the following content:
-  ```env
-  PRIVATE_KEY=YOUR_PRIVATE_KEY
-  PINATA_SECRET_API_KEY=YOUR_PINATA_SECRET_API_KEY
-  PINATA_API_KEY=YOUR_PINATA_API_KEY
-  ALCHEMY_API_KEY="YOUR_ALCHEMY_API_KEY"
-  ```
+2. **Generate a `.env` file from the terminal**
+   ```bash
+   # Paste your own keys in place of the placeholders ↓
+   cat <<'EOF' > .env
+   PRIVATE_KEY=YOUR_PRIVATE_KEY
+   PINATA_SECRET_API_KEY=YOUR_PINATA_SECRET_API_KEY
+   PINATA_API_KEY=YOUR_PINATA_API_KEY
+   ALCHEMY_API_KEY=YOUR_ALCHEMY_API_KEY
+   EOF
 
 3. **Install dependencies**
    ```bash
@@ -83,7 +85,7 @@ Once you're done exploring the demo and want to remove everything:
 
 From the parent directory where you cloned the project:
 ```bash
-rm -rf Ticekts
+rm -rf Tickets
 ```
 
 ### 2. Uninstall globally installed dependencies (if any)
